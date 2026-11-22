@@ -1,0 +1,18 @@
+INTRODUÇÃO À CIÊNCIA DE DADOS · UFOPA · 2026
+SEMINÁRIO FINAL · DADOS DAS EQUIPES
+
+Os dados foram baixados das fontes oficiais em 21/10/2026, sem limpeza:
+a preparação (faltantes, valores estranhos, tipos) faz parte do trabalho.
+
+Leitura no Colab:
+    import pandas as pd
+    df = pd.read_csv("nome_do_arquivo.csv")
+
+------------------------------------------------------------------
+6. SOJA × MANDIOCA · agricultura_santarem_1974_2024.csv
+   Fonte: IBGE, Produção Agrícola Municipal, tabela SIDRA 1612.
+   Todas as 44 lavouras temporárias (soja, mandioca, milho, arroz, feijão…).
+   Colunas: ano, produto, variavel (área plantada, área colhida,
+   quantidade produzida, valor da produção), unidade, valor.
+   Atenção: "-" significa zero e "..." significa dado não disponível.
+   Pergunta: a soja tomou o lugar da mandioca?
